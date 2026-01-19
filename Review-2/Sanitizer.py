@@ -18,9 +18,7 @@ def read_config(lines):
     config = {}   
     errors = []   
     pattern = re.compile(r"(.+)\s*=\s*(.+)")
-
     line_number = 0
-
     for line in lines:
         line_number += 1   
         
@@ -42,7 +40,8 @@ def read_config(lines):
 
 lines = [
     "# comment",
-    " owner = Dhiraj ",
+    " owner = Dhiraj",
+    "place = Chennai",
     "age = 25",
     "abcd ",
     "dhiru",

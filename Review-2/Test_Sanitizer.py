@@ -11,7 +11,7 @@ def test_commentsandemptylines():
 def test_valid_errors():
     lines = [
         "# dinesh",
-        " owner = dhiruu ",
+        "owner = dhiruu ",
         "age = 22",
         "it ",
         "company",
