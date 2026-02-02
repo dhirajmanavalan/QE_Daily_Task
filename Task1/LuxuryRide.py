@@ -8,3 +8,4 @@ class LuxuryRide(Ride):
 
         fare = (base_fare + self.distance * per_km) * surge
         return self.apply_promo(fare)
+

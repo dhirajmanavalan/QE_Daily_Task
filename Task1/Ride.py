@@ -15,6 +15,7 @@ class Ride(ABC):
         elif self.promo_code == "SAVE20%Discount":
             return fare * 0.80   
         return fare
+    
 
     def classname(self):
         return self.__class__.__name__

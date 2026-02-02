@@ -15,6 +15,7 @@ battery_70_80 = []
 battery_80_90 = []
 battery_90_100 = []
 
+
 with open(INPUT_CSV, "r") as file:
     reader = csv.DictReader(file)
 
